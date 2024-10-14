@@ -149,6 +149,16 @@
 				<Layers>GH:admin_citylimits</Layers>
 				<Styles></Styles>
 			</TileSet>
+			<CustomLayer>
+				<Name>GH:water_meters</Name>
+				<Title>water_meters</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
+			<CustomLayer>
+				<Name>GH:water_firehydrant</Name>
+				<Title>water_firehydrant</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
@@ -157,7 +167,7 @@
 				<Title>admin_etj</Title>
 				<Abstract>GH:admin_etj ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/ryanpharrell/Gptx_Test-A/releases/download/Map_Download/admin_etj.zip:notListing::maxZoom:13</Keyword>
+					<Keyword>group:shp:::disabledownload:notListing::maxZoom:13</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-97.1198420513254" miny="32.44956893542042" maxx="-97.01501021866594" maxy="32.56721259843859"></LatLonBoundingBox>
@@ -177,7 +187,7 @@
 				<Title>admin_citylimits</Title>
 				<Abstract>GH:admin_citylimits ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/ryanpharrell/Gptx_Test-A/releases/download/Map_Download/admin_citylimits.zip:notListing::maxZoom:13</Keyword>
+					<Keyword>group:shp:::disabledownload:notListing::maxZoom:13</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-97.08735618921078" miny="32.450507059484735" maxx="-96.92296881581031" maxy="32.817242173676696"></LatLonBoundingBox>
